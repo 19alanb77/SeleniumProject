@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [seleniumTest.TestScenario]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="seleniumTest.TestScenario">
+        <methods>
+          <include name="fifthChapter"/>
+          <include name="afterTest"/>
+          <include name="thirdChapter"/>
+          <include name="firstChapter"/>
+          <include name="thirdChapterExercises"/>
+          <include name="fifthChapterExercises"/>
+          <include name="secondChapter"/>
+          <include name="secondChapterExercises"/>
+          <include name="fourthChapter"/>
+          <include name="firstChapterExercises"/>
+          <include name="fourthChapterExercises"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- seleniumTest.TestScenario -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [seleniumTest.TestScenario] -->

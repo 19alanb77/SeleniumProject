@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="seleniumTest.TestScenario" duration-ms="11810" started-at="2019-03-06T11:59:56Z" finished-at="2019-03-06T12:00:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11810" started-at="2019-03-06T11:59:56Z" finished-at="2019-03-06T12:00:08Z">
+      <class name="seleniumTest.TestScenario">
+        <test-method status="PASS" signature="init()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="init" is-config="true" duration-ms="4131" started-at="2019-03-06T12:59:56Z" description="Init ChromeDriver with specified properties" finished-at="2019-03-06T13:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="firstChapter()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="firstChapter" duration-ms="1040" started-at="2019-03-06T13:00:00Z" description="Go to home page and choose first chapter" finished-at="2019-03-06T13:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstChapter -->
+        <test-method status="PASS" signature="firstChapterExercises()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="firstChapterExercises" duration-ms="2305" started-at="2019-03-06T13:00:01Z" description="Do an exercises from chapter one" depends-on-methods="seleniumTest.TestScenario.firstChapter" finished-at="2019-03-06T13:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstChapterExercises -->
+        <test-method status="PASS" signature="secondChapter()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="secondChapter" duration-ms="479" started-at="2019-03-06T13:00:04Z" description="Go to home page and choose second chapter" depends-on-methods="seleniumTest.TestScenario.firstChapterExercises" finished-at="2019-03-06T13:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondChapter -->
+        <test-method status="PASS" signature="secondChapterExercises()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="secondChapterExercises" duration-ms="208" started-at="2019-03-06T13:00:04Z" description="Do an exercises from chapter two" depends-on-methods="seleniumTest.TestScenario.secondChapter" finished-at="2019-03-06T13:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondChapterExercises -->
+        <test-method status="PASS" signature="thirdChapter()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="thirdChapter" duration-ms="472" started-at="2019-03-06T13:00:04Z" description="Go to home page and choose third chapter" depends-on-methods="seleniumTest.TestScenario.secondChapterExercises" finished-at="2019-03-06T13:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdChapter -->
+        <test-method status="PASS" signature="thirdChapterExercises()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="thirdChapterExercises" duration-ms="47" started-at="2019-03-06T13:00:05Z" description="Do an exercises from chapter three" depends-on-methods="seleniumTest.TestScenario.thirdChapter" finished-at="2019-03-06T13:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdChapterExercises -->
+        <test-method status="PASS" signature="fourthChapter()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="fourthChapter" duration-ms="565" started-at="2019-03-06T13:00:05Z" description="Go to home page and choose fourth chapter" depends-on-methods="seleniumTest.TestScenario.thirdChapterExercises" finished-at="2019-03-06T13:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthChapter -->
+        <test-method status="PASS" signature="fourthChapterExercises()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="fourthChapterExercises" duration-ms="555" started-at="2019-03-06T13:00:05Z" description="Do an exercises from chapter four" depends-on-methods="seleniumTest.TestScenario.fourthChapter" finished-at="2019-03-06T13:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthChapterExercises -->
+        <test-method status="PASS" signature="fifthChapter()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="fifthChapter" duration-ms="544" started-at="2019-03-06T13:00:06Z" description="Go to home page and choose fifth chapter" depends-on-methods="seleniumTest.TestScenario.fourthChapterExercises" finished-at="2019-03-06T13:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthChapter -->
+        <test-method status="PASS" signature="fifthChapterExercises()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="fifthChapterExercises" duration-ms="88" started-at="2019-03-06T13:00:07Z" description="Do an exercises from chapter five" depends-on-methods="seleniumTest.TestScenario.fifthChapter" finished-at="2019-03-06T13:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthChapterExercises -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:seleniumTest.TestScenario@6b2fad11]" name="afterTest" is-config="true" duration-ms="1354" started-at="2019-03-06T13:00:07Z" description="Close all browser windows and safely end the session" finished-at="2019-03-06T13:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumTest.TestScenario -->
+    </test> <!-- Command line test -->
+  </suite> <!-- seleniumTest.TestScenario -->
+</testng-results>
