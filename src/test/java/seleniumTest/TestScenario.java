@@ -4,8 +4,8 @@ import seleniumAPI.SeleniumAPI;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;	
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;	
-import org.testng.annotations.AfterTest;	
+import org.testng.annotations.BeforeClass;	
+import org.testng.annotations.AfterClass;	
 
 /**
  * Test class for example scenario.
@@ -14,7 +14,7 @@ import org.testng.annotations.AfterTest;
  */
 public class TestScenario {	
 	
-	@BeforeTest(description = "Init ChromeDriver with specified properties")
+	@BeforeClass(description = "Init ChromeDriver with specified properties")
 	public void init() throws IOException {
 		SeleniumAPI.setDriverProperty();
 		SeleniumAPI.setDriver(120, TimeUnit.SECONDS);
@@ -72,7 +72,7 @@ public class TestScenario {
 		SeleniumAPI.chapterFiveExercises();
 	}
 	
-	@AfterTest(description = "Close all browser windows and safely end the session")
+	@AfterClass(description = "Close all browser windows and safely end the session")
 	public void afterTest() {
 		SeleniumAPI.closeDriver();		
 	}		
